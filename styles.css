@@ -86,8 +86,9 @@ html, body {
   margin-top: 20px;
   border: none;
   /* Make the button text smaller */
-  /* Make the button text even smaller */
-  font-size: 0.85em;
+  /* Make the button a little bigger */
+  font-size: 1em;
+  padding: 10px 24px;
   border-radius: 4px;
   font-size: 1.05em;
   text-decoration: none;
