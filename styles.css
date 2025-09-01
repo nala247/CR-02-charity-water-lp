@@ -11,7 +11,8 @@ html, body {
   width: 100vw;
   height: 100vh;
   min-height: 600px;
-  background: url(/Woman.png') center center / cover no-repeat;
+  /* Set the background image to Woman.png for the hero section */
+  background: url('img/Woman.png') center center / cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,6 +61,8 @@ html, body {
 }
 
 .hero-content h1 {
+  /* Change the heading color to a light cream shade */
+  color: #FFF7E1;
   font-size: 2.8em;
   font-weight: bold;
   line-height: 1.08;
@@ -74,10 +77,17 @@ html, body {
 }
 
 .cta-btn {
-  background: #e8e8e8;
+  /* Change the button color to a light grayish shade */
+  background: #CBCCD1;
   color: #222;
-  padding: 12px 32px;
+  /* Make the button smaller by reducing padding */
+  padding: 8px 20px;
+  /* Move the button down slightly */
+  margin-top: 20px;
   border: none;
+  /* Make the button text smaller */
+  /* Make the button text even smaller */
+  font-size: 0.85em;
   border-radius: 4px;
   font-size: 1.05em;
   text-decoration: none;
